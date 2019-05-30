@@ -1,0 +1,32 @@
+{
+  "name": "webpack-typescript-react-sass-boilerplate",
+  "description": "A boilerplate showing how webpack, TypeScript, React, and Sass might work together",
+  "license": "MIT",
+  "repository": "https://github.com/patosai/webpack-typescript-react-sass-boilerplate",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "browser-sync": "^2.26.5",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "compile": "webpack",
+    "serve": "webpack-dev-server --open",
+    "start": "npm run serve"
+  }
+}
